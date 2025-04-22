@@ -132,9 +132,10 @@ GameObject:
   - component: {fileID: 43890965}
   - component: {fileID: 43890964}
   - component: {fileID: 43890963}
+  - component: {fileID: 43890968}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,6 +259,24 @@ Transform:
   - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &43890968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43890962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76582c983ad124c4384b6f84c95fe308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 10
+  health: 100
+  strength: 20
+  coinsText: {fileID: 0}
+  healthText: {fileID: 0}
+  strengthText: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
